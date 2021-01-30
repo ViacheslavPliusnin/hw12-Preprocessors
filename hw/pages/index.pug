@@ -4,7 +4,8 @@ html(lang='en')
         meta(charset='UTF-8')
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
         link(rel='stylesheet', href='assets/css/style.css')
-        title Landie
+        link(rel='shortcut icon' type="image/png" href='./assets/img/Landie_icon.png')
+        title | Landie
     body
         header
             .navbar
@@ -14,13 +15,13 @@ html(lang='en')
                     a.navbar__links(href='#') Contact
                 a.navbar__logo(href='#')
                     object(type='image/svg+xml' data='./assets/img/Landie.svg')
-                button.navbar__button Buy Now
+                button.navbar__button.dark_button Buy Now
             .text
                 h1 Introduce Your Product Quickly & Effectively
                 p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                 p mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                 .text__buttons
-                    button Purchase UI Kit
+                    button.dark_button Purchase UI Kit
                     button Learn More
             img(src='./assets/img/header_background_image.png' alt='man with solutions')
         main
@@ -40,3 +41,52 @@ html(lang='en')
                     h4 Title Goes Here
                     p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
             img(src='./assets/img/main_background.png' alt='girl with phone')
+        section.messages
+            .text
+                h2 Light, Fast & Powerful
+                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                p mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            img(src='./assets/img/section_messages_background.png' alt='girl in flower with message')
+        section.likes
+            .text
+                h2 Light, Fast & Powerful
+                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                p mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            img(src='./assets/img/section_likes_background.png' alt='girl in flower with message')
+        section.mail
+            .text
+                h2 Light, Fast & Powerful
+                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                p mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                button.dark_button Purchase Now
+            img(src='./assets/img/section_mail_background.png' alt='girl in flower with message')
+        section.price
+            .text
+                h2 A Price To Suit Everyone
+                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                h2 $40
+                p UI Design Kit
+                p See, One price. Simple.
+                button.dark_button Purchase Now
+        footer
+            .copyright
+                p ©2020 Yourcompany
+                a(href='#')
+                    object(type='image/svg+xml' data='./assets/img/Landie.svg')
+                button.dark_button Purchase Now
+            nav
+                .links
+                    a(href='#') Home
+                    a(href='#') About
+                    a(href='#') Contact
+                .social
+                    a(href='#')
+                        object(data="./assets/img/facebook_icon.svg", type="image/svg+xml" class="facebook_icon")
+                    a(href='#')
+                        object(data="./assets/img/linkedin_icon.svg", type="image/svg+xml" class="linkedin_icon")
+                    a(href='#')
+                        object(data="./assets/img/twitter_icon.svg", type="image/svg+xml" class="twitter_icon")
+                    a(href='#')
+                        object(data="./assets/img/youtube_icon.svg", type="image/svg+xml" class="youtube_icon")
+                    a(href='#')
+                        object(data="./assets/img/instagram_icon.svg", type="image/svg+xml" class="instagram_icon")
